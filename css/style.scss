@@ -1,0 +1,2305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.box {
+    width: 90%;
+    height: 150px;
+    padding-top: 1rem;
+    background-color: #141414;
+    margin: auto;
+
+    .kenan {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+
+
+            width: 25%;
+            height: 60px;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            color: white;
+
+            .star {
+                width: 30%;
+                height: 100%;
+                background-image: url(../img/Vector\ \(1\).svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .foto {
+                width: 70%;
+            }
+
+
+        }
+
+
+        .roro {
+            margin: 30px;
+            display: block;
+
+            i {
+                width: 34px;
+                height: 34px;
+                color: #FFFFFF;
+            }
+        }
+
+        .lala {
+            width: 500px;
+            height: 90px;
+            border-radius: 12px;
+            border: 2px solid #ffffff3a;
+            background-color: black;
+
+            display: block;
+            margin: auto;
+
+
+            ul {
+                display: flex;
+                margin: 20px;
+
+                .men {
+                    border: solid red 1px;
+                    width: 160px;
+                    height: 50px;
+                    text-align: center;
+                    margin: 1px;
+                    border-radius: 8px;
+                    border: 1px solid var(--black-10, #1A1A1A);
+                    background: var(--black-10, #1A1A1A);
+
+                    .sess {
+                        margin-top: 8px;
+
+
+
+                        color: #FFF;
+
+
+
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+
+                }
+
+
+
+
+                li {
+                    margin: 10px;
+                    list-style: none;
+
+
+
+                    p {
+                        color: var(--grey-75, #BFBFBF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                    }
+                }
+            }
+
+        }
+
+        .bars {
+            display: none;
+        }
+
+    }
+
+}
+
+.sekil {
+
+    .yazi {
+        margin-top: 20px;
+
+        .iconlar {
+            display: flex;
+
+            .ken {
+                width: 56px;
+                height: 56px;
+                border-radius: 8px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-06, #0F0F0F);
+                margin-left: 5px;
+
+                img {
+                    width: 28px;
+                    height: 28px;
+                    margin: 10px;
+                }
+            }
+        }
+
+        display: flex;
+        justify-content: center;
+
+        button {
+            width: 157px;
+            height: 56px;
+            color: var(--grey-60, #999);
+            text-align: center;
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            border-radius: 8px;
+            background: var(--red-45, #E50000);
+            color: var(--absolute-white, #FFF);
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 153%;
+        }
+    }
+
+    position: relative;
+    width: 90%;
+    height: 710px;
+    margin: auto;
+    background-image: url(../img/917.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+    .kantara {
+        position: absolute;
+        top: 75%;
+        left: 15%;
+        text-align: center;
+
+        span {
+            color: var(--grey-60, #999);
+            text-align: center;
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+        }
+
+        p {
+            color: var(--absolute-white, #FFF);
+            text-align: center;
+
+            font-family: Manrope;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+        }
+    }
+}
+
+.ortalama {
+
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+
+
+.sasa {
+    position: relative;
+    width: 90%;
+
+
+    margin: auto;
+
+    .rezin {
+        .toto {
+
+            width: 850px;
+            height: 550px;
+            margin-top: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--black-15, #262626);
+            background: var(--black-10, #1A1A1A);
+
+            .razi {
+                padding: 20px;
+                width: 85%;
+                height: 250px;
+                border-radius: 12px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-06, #0F0F0F);
+                margin-top: 40px;
+                margin-left: 30px;
+
+
+
+                .megi {
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+                }
+
+                .rara {
+                    display: flex;
+                    justify-content: space-between;
+
+
+
+
+
+                    .ruru {
+                        margin-top: 15px;
+                        margin-left: 1px;
+
+
+                        span {
+                            color: var(--grey-60, #999);
+                            font-family: Manrope;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%;
+
+
+
+
+
+
+                        }
+
+                        p {
+                            color: var(--absolute-white, #FFF);
+                            font-family: Manrope;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%;
+
+
+
+
+
+
+                        }
+                    }
+
+                    .ulduz {
+                        margin-top: 35px;
+                        margin-right: 15px;
+
+                        width: 125px;
+                        height: 26px;
+                        border-radius: 51px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+
+
+                        img {
+                            width: 14px;
+                            height: 14px;
+                            margin-left: 1px;
+                            margin-bottom: 4px;
+
+                        }
+
+                        i {
+                            color: red;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                        }
+
+                        span {
+
+                            color: var(--grey-60, #999);
+                            font-family: Manrope;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%;
+
+                        }
+                    }
+                }
+
+            }
+
+
+
+            .strelka {
+
+                display: flex;
+                justify-content: center;
+
+                .tok {
+                    color: #E50000;
+
+                }
+
+                span {
+                    border-radius: 100px;
+                    margin-top: 9px;
+                    font-size: 50px;
+                }
+
+                .lamiya {
+                    border-radius: 100px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                    width: 40px;
+                    height: 40px;
+                    margin-top: 30px;
+                    margin-left: 5px;
+
+                    img {
+                        margin-top: 9px;
+                        margin-left: 5px;
+                    }
+                }
+
+                .leyla {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 100px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                    margin-top: 30px;
+                    margin-right: 5px;
+
+                    img {
+                        margin-top: 9px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+            .kiki {
+                display: flex;
+                justify-content: space-between;
+
+                width: 90%;
+                margin: auto;
+                margin-top: 9%;
+
+
+                p {
+                    margin-top: 15px;
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                }
+            }
+
+            .sweet {
+                display: flex;
+                width: 204px;
+                height: 58px;
+                border-radius: 8px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-08, #141414);
+
+                .mimi {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 153%;
+                    margin-top: 15px;
+                }
+            }
+        }
+
+
+
+        .koko {
+
+            .hindistan {
+                width: 95%;
+                height: 100px;
+
+                margin-left: 30px;
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                    margin-left: 15px;
+                }
+            }
+
+            width: 850px;
+            height: 300px;
+            border-radius: 12px;
+            border: 1px solid var(--black-15, #262626);
+            background: var(--black-10, #1A1A1A);
+            margin-top: 30px;
+
+            .bizon {
+                .imglar {
+                    display: flex;
+
+
+                    .ket {
+                        margin-left: 10px;
+                        width: 52px;
+                        height: 52px;
+                        border-radius: 100px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+
+                        img {
+                            height: 24px;
+                            width: 24px;
+                            margin: 14px;
+
+                        }
+                    }
+                }
+
+                width: 90%;
+
+                display: flex;
+                justify-content: space-between;
+                margin: 50px;
+
+
+                p {
+                    color: #999;
+
+                    font-family: Archivo;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .soso {
+            border-radius: 12px;
+            border: 1px solid var(--black-15, #262626);
+            background: var(--black-10, #1A1A1A);
+
+            .wowo {
+
+                width: 70%;
+                margin: 50px;
+            }
+
+            width: 850px;
+            height: 180px;
+
+
+            p {
+                color: var(--grey-60, #999);
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+            }
+
+            span {
+                color: var(--absolute-white, #FFF);
+                font-size: 11px;
+
+
+
+
+
+
+
+
+            }
+        }
+
+    }
+
+    .leyk {
+        margin-right: 50px;
+
+        .ana {
+            border: solid forestgreen 1px;
+            width: 470px;
+            height: 920px;
+            border-radius: 12px;
+            border: 1px solid var(--black-15, #262626);
+            background: var(--black-10, #1A1A1A);
+
+            .reji {
+                width: 400px;
+                height: 88px;
+                margin-top: 10px;
+                border-radius: 8px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-08, #141414);
+                display: flex;
+
+                .more {
+
+                    width: 160px;
+                    margin-left: 15px;
+                    margin-top: 20px;
+
+
+
+                    .bori {
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+
+                }
+
+                img {
+                    width: 65px;
+                    height: 65px;
+                    margin-left: 12px;
+                    margin-top: 11px;
+                }
+            }
+
+
+
+
+
+
+            .musik {
+                margin-top: 30px;
+
+                span {
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .qaqam {
+                width: 400px;
+                height: 88px;
+                margin-top: 10px;
+                border-radius: 8px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-08, #141414);
+                display: flex;
+
+                .biri {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+
+                }
+
+                .kome {
+                    width: 130px;
+                    height: 50px;
+
+                    margin-left: 15px;
+                    margin-top: 20px;
+                }
+
+
+                img {
+                    width: 65px;
+                    height: 65px;
+                    margin-left: 12px;
+                    margin-top: 11px;
+                }
+            }
+
+
+
+            .direktor {
+                margin-top: 10px;
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .gernes {
+
+                width: 250px;
+                height: 100px;
+                margin-top: 30px;
+
+                .juk {
+                    margin-top: 20px;
+                }
+
+                .boy {
+                    width: 117px;
+                    height: 43px;
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+
+                }
+
+                .kic {
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    width: 84px;
+                    height: 43px;
+                }
+
+                .kivi {
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+
+                }
+            }
+
+
+
+            .messi.qonca {
+                margin-left: 100px;
+
+            }
+
+            .messi {
+                border-radius: 8px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-08, #141414);
+                width: 190px;
+                height: 100px;
+                margin-top: 25px;
+
+                span {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                }
+
+                .dede {
+                    margin-left: 10px;
+                }
+
+
+
+                p {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%;
+                    margin-left: 10px;
+                }
+
+                i {
+                    color: #E50000;
+                    font-size: 18px;
+
+                }
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-bottom: 5px;
+
+                }
+
+
+            }
+
+
+            .sevinc {
+
+
+
+
+
+
+
+                span {
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+
+
+
+                }
+            }
+
+
+            .eldar {
+
+                width: 400px;
+                height: 130px;
+
+
+                .mess {
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    width: 102px;
+                    height: 43px;
+                    margin-top: 10px;
+
+                }
+
+
+                .tess {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                    width: 85px;
+                    height: 43px;
+                    margin-top: 10px;
+                    margin-left: 10px;
+
+                }
+
+                .fess {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                    width: 73px;
+                    height: 43px;
+                    margin-left: 10px;
+                }
+
+                .meem {
+                    margin-left: 10px;
+                    width: 72px;
+                    height: 43px;
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                }
+
+                .se {
+                    width: 90px;
+                    height: 43px;
+                    border-radius: 8px;
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                }
+            }
+
+            .ilham {
+
+                padding-top: 10px;
+            }
+
+            p {
+                color: var(--absolute-white, #FFF);
+                font-family: Manrope;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+                margin-top: 15px;
+
+
+            }
+
+            .cavid {
+
+                padding: 50px;
+                width: 300px;
+                height: 210px;
+
+                span {
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+
+                }
+            }
+
+
+        }
+
+
+
+
+
+
+
+    }
+}
+
+.nani {
+    padding: 50px;
+}
+
+
+.yetka {
+    .but {
+        display: none;
+        margin-left: 380px;
+        position: absolute;
+        bottom: 15%;
+
+        width: 188px;
+        height: 63px;
+        color: var(--absolute-white, #FFF);
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        border-radius: 8px;
+        background: var(--red-45, #E50000);
+    }
+
+
+
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background-image: url(../img/road-8395119_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .priroda {
+        button {
+            margin-left: 380px;
+            position: absolute;
+            bottom: 15%;
+
+            width: 188px;
+            height: 63px;
+            color: var(--absolute-white, #FFF);
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            border-radius: 8px;
+            background: var(--red-45, #E50000);
+        }
+
+        span {
+            color: var(--grey-60, #999);
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+
+
+
+        }
+
+
+        width: 96%;
+        position: absolute;
+        position: relative;
+        top: 40%;
+        left: 2%;
+
+        p {
+            color: var(--absolute-white, #FFF);
+            font-family: Manrope;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+        }
+
+    }
+}
+
+.kemal {
+  
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    margin-top: 10%;
+
+
+
+    .arzu {
+        width: 90%;
+
+        margin: auto;
+
+
+
+
+
+
+
+        .lamiya {
+            margin-top: 50%;
+
+            ul {
+                i {
+                    color: #FFFFFF;
+
+
+                }
+
+                p {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%;
+                }
+
+                li {
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    list-style: none;
+                }
+
+                p {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%;
+                }
+            }
+
+
+
+
+        }
+    }
+
+    .dada {
+        width: 90%;
+        height: 1px;
+        margin: auto;
+
+        background: #262626;
+
+        hr {
+            margin-top: 60px;
+        }
+    }
+
+    .ayuye {
+        .tus {
+            span {
+                color: var(--grey-60, #999);
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+            }
+        }
+
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 30px;
+
+        .jizn {
+            span {
+                color: var(--grey-60, #999);
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .box {
+
+        width: 90%;
+        height: 120px;
+        margin: initial;
+
+        .kenan {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .logo {
+                width: 50%;
+            }
+
+
+            .roro {
+                display: none;
+            }
+
+            .lala {
+                display: none;
+
+
+            }
+
+            .bars {
+                display: block;
+                border: 2px solid red;
+                padding: 10px;
+                border-radius: 6px;
+                border: 3px solid var(--black-15, #262626);
+                background: var(--black-10, #1A1A1A);
+            }
+
+        }
+
+    }
+
+    .sekil {
+
+        .yazi {
+            margin-top: 20px;
+
+            .iconlar {
+                display: flex;
+                margin-top: 80px;
+
+
+                width: 240px;
+                height: 60px;
+                margin-left: 60px;
+
+                .ken {
+
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-06, #0F0F0F);
+                    margin-left: 10px;
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        margin: 10px;
+                    }
+                }
+            }
+
+            display: flex;
+            justify-content: center;
+
+            button {
+                width: 300px;
+                height: 56px;
+                color: var(--grey-60, #999);
+                color: var(--absolute-white, #FFF);
+                font-family: Manrope;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 153%;
+                border-radius: 8px;
+                background: var(--red-45, #E50000);
+                color: var(--absolute-white, #FFF);
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 153%;
+                position: absolute;
+            }
+        }
+
+        position: relative;
+        width: 90%;
+        height: 600px;
+
+        border-radius: 12px;
+
+
+
+        .kantara {
+            width: 300px;
+            height: 300px;
+
+            position: absolute;
+            top: 62%;
+            left: 15%;
+            text-align: center;
+            position: relative;
+
+
+            span {
+                display: none;
+            }
+
+            p {
+
+                color: var(--absolute-white, #FFF);
+                text-align: center;
+                font-family: Manrope;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+            }
+        }
+    }
+
+    .ortalama {
+
+        width: 576px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .sasa {
+        position: relative;
+        width: 90%;
+
+
+        margin: auto;
+
+        .rezin {
+            position: relative;
+
+            .toto {
+                .test {
+                    display: none;
+                }
+
+                position: absolute;
+                top: 1380px;
+
+                width: 505px;
+                height: 600px;
+                margin-top: 30px;
+                border-radius: 12px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-10, #1A1A1A);
+
+                .razi {
+
+                    padding: 20px;
+                    width: 445px;
+                    height: 350px;
+                    border-radius: 12px;
+
+                    background: var(--black-06, #0F0F0F);
+                    margin-top: 40px;
+                    margin-left: 30px;
+
+
+
+                    .megi {
+                        top: 270px;
+                        position: absolute;
+
+                        width: 410px;
+
+                        color: var(--grey-60, #999);
+                        font-family: Manrope;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+
+
+
+                    }
+
+                    .rara {
+                        display: flex;
+                        justify-content: space-between;
+
+
+
+
+
+                        .ruru {
+                            margin-top: 15px;
+                            margin-left: 1px;
+
+
+
+
+                            span {
+                                color: var(--grey-60, #999);
+                                font-family: Manrope;
+                                font-size: 25px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 150%;
+
+
+
+
+
+
+                            }
+
+                            p {
+                                color: var(--absolute-white, #FFF);
+                                font-family: Manrope;
+                                font-size: 25px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 150%;
+
+
+
+
+
+
+                            }
+                        }
+
+                        .ulduz {
+
+                            margin-top: 35px;
+                            margin-right: 15px;
+
+                            width: 125px;
+                            height: 26px;
+                            border-radius: 51px;
+                            border: 1px solid var(--black-15, #262626);
+                            background: var(--black-08, #141414);
+
+
+                            img {
+                                width: 14px;
+                                height: 14px;
+                                margin-left: 1px;
+                                margin-bottom: 4px;
+
+                            }
+
+                            i {
+                                color: red;
+                                font-size: 14px;
+                                margin-bottom: 10px;
+                            }
+
+                            span {
+
+                                color: var(--grey-60, #999);
+                                font-family: Manrope;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 150%;
+
+                            }
+                        }
+                    }
+
+                }
+
+                .strelka {
+
+                    display: flex;
+                    justify-content: center;
+
+                    .tok {
+                        color: #E50000;
+
+                    }
+
+                    span {
+                        border-radius: 100px;
+                        margin-top: 13px;
+                        font-size: 50px;
+
+
+                    }
+
+                    .lamiya {
+                        border-radius: 100px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+                        width: 50px;
+                        height: 50px;
+                        margin-top: 30px;
+                        margin-left: 5px;
+
+                        img {
+                            margin-top: 9px;
+                            margin-left: 5px;
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+
+                    .leyla {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 100px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+                        margin-top: 30px;
+                        margin-right: 5px;
+
+                        img {
+                            width: 30px;
+                            height: 30px;
+                            margin-top: 9px;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+
+                .kiki {
+                    display: flex;
+                    justify-content: space-between;
+
+                    width: 90%;
+                    margin: auto;
+                    margin-top: 9%;
+
+
+                    p {
+                        margin-top: 15px;
+                        color: var(--grey-60, #999);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+
+                .sweet {
+                    display: flex;
+                    width: 204px;
+                    height: 58px;
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+
+                    .mimi {
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 153%;
+                        margin-top: 15px;
+                    }
+                }
+            }
+
+
+
+            .koko {
+                position: absolute;
+                top: 1110px;
+
+                .hindistan {
+                    position: absolute;
+                    bottom: 10px;
+
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+
+
+                    .tus {
+
+                        display: none;
+                    }
+
+                    width: 95%;
+                    height: 100px;
+
+                    margin-left: 30px;
+
+
+                }
+
+                width: 505px;
+                height: 250px;
+                border-radius: 12px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-10, #1A1A1A);
+
+
+                .bizon {
+
+
+                    .imglar {
+
+                        display: flex;
+
+
+                        .ket {
+                            margin-left: 10px;
+                            width: 52px;
+                            height: 52px;
+                            border-radius: 100px;
+                            border: 1px solid var(--black-15, #262626);
+                            background: var(--black-08, #141414);
+
+                            img {
+                                height: 24px;
+                                width: 24px;
+                                margin: 14px;
+
+                            }
+                        }
+                    }
+
+                    width: 83%;
+
+                    display: flex;
+                    justify-content: space-between;
+
+
+
+                    p {
+                        color: #999;
+
+                        font-family: Archivo;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                        margin-top: 10px;
+                        color: #999;
+
+
+                    }
+                }
+            }
+
+            .soso {
+                border-radius: 12px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-10, #1A1A1A);
+                width: 505px;
+                height: 180px;
+
+
+
+                .wowo {
+
+                    width: 400px;
+
+
+
+
+
+
+                }
+
+
+
+
+
+                p {
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    position: absolute;
+                    bottom: 120px;
+                }
+
+                span {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+
+
+                    width: 350px;
+                    margin-right: 20px;
+
+                    position: absolute;
+
+
+
+
+
+
+
+
+                }
+            }
+
+        }
+
+        .leyk {
+            margin-right: 50px;
+
+            .ana {
+                top: 200px;
+                right: 8px;
+                position: absolute;
+                border: solid forestgreen 1px;
+                width: 505px;
+                height: 920px;
+                border-radius: 12px;
+                border: 1px solid var(--black-15, #262626);
+                background: var(--black-10, #1A1A1A);
+
+                .reji {
+                    width: 400px;
+                    height: 88px;
+                    margin-top: 10px;
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                    display: flex;
+
+                    .more {
+
+                        width: 160px;
+                        margin-left: 15px;
+                        margin-top: 20px;
+
+
+
+                        .bori {
+                            color: var(--absolute-white, #FFF);
+                            font-family: Manrope;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%;
+                        }
+
+                    }
+
+                    img {
+                        width: 65px;
+                        height: 65px;
+                        margin-left: 12px;
+                        margin-top: 11px;
+                    }
+                }
+
+
+
+
+
+
+                .musik {
+                    margin-top: 30px;
+
+                    span {
+                        color: var(--grey-60, #999);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .qaqam {
+                    width: 400px;
+                    height: 88px;
+                    margin-top: 10px;
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                    display: flex;
+
+                    .biri {
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+
+                    }
+
+                    .kome {
+                        width: 130px;
+                        height: 50px;
+
+                        margin-left: 15px;
+                        margin-top: 20px;
+                    }
+
+
+                    img {
+                        width: 65px;
+                        height: 65px;
+                        margin-left: 12px;
+                        margin-top: 11px;
+                    }
+                }
+
+
+
+                .direktor {
+                    margin-top: 10px;
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .gernes {
+
+                    width: 250px;
+                    height: 100px;
+                    margin-top: 30px;
+
+                    .juk {
+                        margin-top: 20px;
+                    }
+
+                    .boy {
+                        width: 117px;
+                        height: 43px;
+                        border-radius: 8px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+
+                    }
+
+                    .kic {
+                        border-radius: 8px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                        width: 84px;
+                        height: 43px;
+                    }
+
+                    .kivi {
+                        color: var(--grey-60, #999);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+
+                    }
+                }
+
+
+
+                .messi.qonca {
+                    margin-left: 100px;
+
+                }
+
+                .messi {
+                    border-radius: 8px;
+                    border: 1px solid var(--black-15, #262626);
+                    background: var(--black-08, #141414);
+                    width: 190px;
+                    height: 100px;
+                    margin-top: 25px;
+
+                    span {
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+
+                    .dede {
+                        margin-left: 10px;
+                    }
+
+
+
+                    p {
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%;
+                        margin-left: 10px;
+                    }
+
+                    i {
+                        color: #E50000;
+                        font-size: 18px;
+
+                    }
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        margin-bottom: 5px;
+
+                    }
+
+
+                }
+
+
+                .sevinc {
+
+
+
+
+
+
+
+                    span {
+                        color: var(--grey-60, #999);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+
+
+
+                    }
+                }
+
+
+                .eldar {
+
+                    width: 400px;
+                    height: 130px;
+
+
+                    .mess {
+                        border-radius: 8px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                        width: 102px;
+                        height: 43px;
+                        margin-top: 10px;
+
+                    }
+
+
+                    .tess {
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                        border-radius: 8px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+                        width: 85px;
+                        height: 43px;
+                        margin-top: 10px;
+                        margin-left: 10px;
+
+                    }
+
+                    .fess {
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                        border-radius: 8px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+                        width: 73px;
+                        height: 43px;
+                        margin-left: 10px;
+                    }
+
+                    .meem {
+                        margin-left: 10px;
+                        width: 72px;
+                        height: 43px;
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                        border-radius: 8px;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+                    }
+
+                    .se {
+                        width: 90px;
+                        height: 43px;
+                        border-radius: 8px;
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                        border: 1px solid var(--black-15, #262626);
+                        background: var(--black-08, #141414);
+                    }
+                }
+
+                .ilham {
+
+                    padding-top: 10px;
+                }
+
+                p {
+                    color: var(--absolute-white, #FFF);
+                    font-family: Manrope;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%;
+                    margin-top: 15px;
+
+
+                }
+
+                .cavid {
+
+                    padding: 50px;
+                    width: 300px;
+                    height: 210px;
+
+                    span {
+                        color: var(--grey-60, #999);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+
+                    }
+                }
+
+
+            }
+
+
+
+
+
+
+
+        }
+    }
+
+    .nani {
+        width: 505px;
+        height: 130px;
+        position: absolute;
+
+        top: 2772px;
+        left: 28px;
+
+
+    }
+
+    .yetka {
+        position: relative;
+
+        .but {
+            position: absolute;
+            display: block;
+            margin-left: 380px;
+            position: absolute;
+          right: 160px;
+
+
+            width: 188px;
+            height: 63px;
+            color: var(--absolute-white, #FFF);
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            border-radius: 8px;
+            background: var(--red-45, #E50000);
+        }
+
+        button {
+            display: none;
+            margin-left: 380px;
+            position: absolute;
+            bottom: 15%;
+
+            width: 188px;
+            height: 63px;
+            color: var(--absolute-white, #FFF);
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            border-radius: 8px;
+            background: var(--red-45, #E50000);
+        }
+
+       
+        top: 1900px;
+        border-radius: 10px;
+
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        background-image: url(../img/road-8395119_640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        .priroda {
+          
+            width: 200px;
+            height: 300px;
+
+            text-align: center;
+            position: relative;
+         
+
+            button {
+                margin-left: 380px;
+                position: absolute;
+                bottom: 15%;
+
+                width: 188px;
+                height: 63px;
+                color: var(--absolute-white, #FFF);
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+                border-radius: 8px;
+                background: var(--red-45, #E50000);
+            }
+
+            span {
+                color: var(--grey-60, #999);
+                font-family: Manrope;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+
+
+
+            }
+
+
+            width: 96%;
+            position: absolute;
+            position: relative;
+            top: 40%;
+            left: 2%;
+
+            p {
+                
+                color: var(--absolute-white, #FFF);
+                font-family: Manrope;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+                width: 300px;
+             
+                margin: auto;
+                position: absolute;
+                bottom: 300px;
+                left: 100px;
+            }
+
+        }
+    }
+    .kemal {
+        top: 3400px;
+  position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        margin-top: 10%;
+    
+    
+    
+        .arzu {
+            width: 90%;
+    
+            margin: auto;
+    
+    
+    
+    
+    
+    
+    
+            .lamiya {
+                margin-top: 50%;
+    
+                ul {
+                    i {
+                        color: #FFFFFF;
+    
+    
+                    }
+    
+                    p {
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%;
+                    }
+    
+                    li {
+                        color: var(--grey-60, #999);
+                        font-family: Manrope;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                        list-style: none;
+                    }
+    
+                    p {
+                        color: var(--absolute-white, #FFF);
+                        font-family: Manrope;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%;
+                    }
+                }
+    
+    
+    
+    
+            }
+        }
+    
+        .dada {
+            width: 90%;
+            height: 1px;
+            margin: auto;
+    
+            background: #262626;
+    
+            hr {
+                margin-top: 60px;
+            }
+        }
+    
+        .ayuye {
+            .tus {
+                span {
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+                }
+            }
+    
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            margin-top: 30px;
+    
+            .jizn {
+                span {
+                    color: var(--grey-60, #999);
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+                }
+            }
+        }
+    
+    }
+}
+
+
+@media (min-width:577px) and (max-width:768px) {}

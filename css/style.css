@@ -1,0 +1,1628 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 90%;
+  height: 150px;
+  padding-top: 1rem;
+  background-color: #141414;
+  margin: auto;
+}
+.box .kenan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .kenan .logo {
+  width: 25%;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.box .kenan .logo .star {
+  width: 30%;
+  height: 100%;
+  background-image: url(../img/Vector\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .kenan .logo .foto {
+  width: 70%;
+}
+.box .kenan .roro {
+  margin: 30px;
+  display: block;
+}
+.box .kenan .roro i {
+  width: 34px;
+  height: 34px;
+  color: #FFFFFF;
+}
+.box .kenan .lala {
+  width: 500px;
+  height: 90px;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.2274509804);
+  background-color: black;
+  display: block;
+  margin: auto;
+}
+.box .kenan .lala ul {
+  display: flex;
+  margin: 20px;
+}
+.box .kenan .lala ul .men {
+  border: solid red 1px;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  margin: 1px;
+  border-radius: 8px;
+  border: 1px solid var(--black-10, #1A1A1A);
+  background: var(--black-10, #1A1A1A);
+}
+.box .kenan .lala ul .men .sess {
+  margin-top: 8px;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.box .kenan .lala ul li {
+  margin: 10px;
+  list-style: none;
+}
+.box .kenan .lala ul li p {
+  color: var(--grey-75, #BFBFBF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.box .kenan .bars {
+  display: none;
+}
+
+.sekil {
+  position: relative;
+  width: 90%;
+  height: 710px;
+  margin: auto;
+  background-image: url(../img/917.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sekil .yazi {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sekil .yazi .iconlar {
+  display: flex;
+}
+.sekil .yazi .iconlar .ken {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-06, #0F0F0F);
+  margin-left: 5px;
+}
+.sekil .yazi .iconlar .ken img {
+  width: 28px;
+  height: 28px;
+  margin: 10px;
+}
+.sekil .yazi button {
+  width: 157px;
+  height: 56px;
+  color: var(--grey-60, #999);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border-radius: 8px;
+  background: var(--red-45, #E50000);
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 153%;
+}
+.sekil .kantara {
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  text-align: center;
+}
+.sekil .kantara span {
+  color: var(--grey-60, #999);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.sekil .kantara p {
+  color: var(--absolute-white, #FFF);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.ortalama {
+  width: 90%;
+  margin: auto;
+  padding: 40px;
+}
+
+.sasa {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+.sasa .rezin .toto {
+  width: 850px;
+  height: 550px;
+  margin-top: 30px;
+  border-radius: 12px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-10, #1A1A1A);
+}
+.sasa .rezin .toto .razi {
+  padding: 20px;
+  width: 85%;
+  height: 250px;
+  border-radius: 12px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-06, #0F0F0F);
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.sasa .rezin .toto .razi .megi {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.sasa .rezin .toto .razi .rara {
+  display: flex;
+  justify-content: space-between;
+}
+.sasa .rezin .toto .razi .rara .ruru {
+  margin-top: 15px;
+  margin-left: 1px;
+}
+.sasa .rezin .toto .razi .rara .ruru span {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .rezin .toto .razi .rara .ruru p {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .rezin .toto .razi .rara .ulduz {
+  margin-top: 35px;
+  margin-right: 15px;
+  width: 125px;
+  height: 26px;
+  border-radius: 51px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+}
+.sasa .rezin .toto .razi .rara .ulduz img {
+  width: 14px;
+  height: 14px;
+  margin-left: 1px;
+  margin-bottom: 4px;
+}
+.sasa .rezin .toto .razi .rara .ulduz i {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.sasa .rezin .toto .razi .rara .ulduz span {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .rezin .toto .strelka {
+  display: flex;
+  justify-content: center;
+}
+.sasa .rezin .toto .strelka .tok {
+  color: #E50000;
+}
+.sasa .rezin .toto .strelka span {
+  border-radius: 100px;
+  margin-top: 9px;
+  font-size: 50px;
+}
+.sasa .rezin .toto .strelka .lamiya {
+  border-radius: 100px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+.sasa .rezin .toto .strelka .lamiya img {
+  margin-top: 9px;
+  margin-left: 5px;
+}
+.sasa .rezin .toto .strelka .leyla {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.sasa .rezin .toto .strelka .leyla img {
+  margin-top: 9px;
+  margin-left: 5px;
+}
+.sasa .rezin .toto .kiki {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 9%;
+}
+.sasa .rezin .toto .kiki p {
+  margin-top: 15px;
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .rezin .toto .sweet {
+  display: flex;
+  width: 204px;
+  height: 58px;
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+}
+.sasa .rezin .toto .sweet .mimi {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 153%;
+  margin-top: 15px;
+}
+.sasa .rezin .koko {
+  width: 850px;
+  height: 300px;
+  border-radius: 12px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-10, #1A1A1A);
+  margin-top: 30px;
+}
+.sasa .rezin .koko .hindistan {
+  width: 95%;
+  height: 100px;
+  margin-left: 30px;
+}
+.sasa .rezin .koko .hindistan img {
+  width: 80px;
+  height: 80px;
+  margin-left: 15px;
+}
+.sasa .rezin .koko .bizon {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.sasa .rezin .koko .bizon .imglar {
+  display: flex;
+}
+.sasa .rezin .koko .bizon .imglar .ket {
+  margin-left: 10px;
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+}
+.sasa .rezin .koko .bizon .imglar .ket img {
+  height: 24px;
+  width: 24px;
+  margin: 14px;
+}
+.sasa .rezin .koko .bizon p {
+  color: #999;
+  font-family: Archivo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-top: 10px;
+}
+.sasa .rezin .soso {
+  border-radius: 12px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-10, #1A1A1A);
+  width: 850px;
+  height: 180px;
+}
+.sasa .rezin .soso .wowo {
+  width: 70%;
+  margin: 50px;
+}
+.sasa .rezin .soso p {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .rezin .soso span {
+  color: var(--absolute-white, #FFF);
+  font-size: 11px;
+}
+.sasa .leyk {
+  margin-right: 50px;
+}
+.sasa .leyk .ana {
+  border: solid forestgreen 1px;
+  width: 470px;
+  height: 920px;
+  border-radius: 12px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-10, #1A1A1A);
+}
+.sasa .leyk .ana .reji {
+  width: 400px;
+  height: 88px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  display: flex;
+}
+.sasa .leyk .ana .reji .more {
+  width: 160px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.sasa .leyk .ana .reji .more .bori {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .leyk .ana .reji img {
+  width: 65px;
+  height: 65px;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.sasa .leyk .ana .musik {
+  margin-top: 30px;
+}
+.sasa .leyk .ana .musik span {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .leyk .ana .qaqam {
+  width: 400px;
+  height: 88px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  display: flex;
+}
+.sasa .leyk .ana .qaqam .biri {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .leyk .ana .qaqam .kome {
+  width: 130px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.sasa .leyk .ana .qaqam img {
+  width: 65px;
+  height: 65px;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.sasa .leyk .ana .direktor {
+  margin-top: 10px;
+}
+.sasa .leyk .ana .gernes {
+  width: 250px;
+  height: 100px;
+  margin-top: 30px;
+}
+.sasa .leyk .ana .gernes .juk {
+  margin-top: 20px;
+}
+.sasa .leyk .ana .gernes .boy {
+  width: 117px;
+  height: 43px;
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .leyk .ana .gernes .kic {
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  width: 84px;
+  height: 43px;
+}
+.sasa .leyk .ana .gernes .kivi {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .leyk .ana .messi.qonca {
+  margin-left: 100px;
+}
+.sasa .leyk .ana .messi {
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  width: 190px;
+  height: 100px;
+  margin-top: 25px;
+}
+.sasa .leyk .ana .messi span {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .leyk .ana .messi .dede {
+  margin-left: 10px;
+}
+.sasa .leyk .ana .messi p {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-left: 10px;
+}
+.sasa .leyk .ana .messi i {
+  color: #E50000;
+  font-size: 18px;
+}
+.sasa .leyk .ana .messi img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+.sasa .leyk .ana .sevinc span {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.sasa .leyk .ana .eldar {
+  width: 400px;
+  height: 130px;
+}
+.sasa .leyk .ana .eldar .mess {
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  width: 102px;
+  height: 43px;
+  margin-top: 10px;
+}
+.sasa .leyk .ana .eldar .tess {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  width: 85px;
+  height: 43px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.sasa .leyk .ana .eldar .fess {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+  width: 73px;
+  height: 43px;
+  margin-left: 10px;
+}
+.sasa .leyk .ana .eldar .meem {
+  margin-left: 10px;
+  width: 72px;
+  height: 43px;
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border-radius: 8px;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+}
+.sasa .leyk .ana .eldar .se {
+  width: 90px;
+  height: 43px;
+  border-radius: 8px;
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border: 1px solid var(--black-15, #262626);
+  background: var(--black-08, #141414);
+}
+.sasa .leyk .ana .ilham {
+  padding-top: 10px;
+}
+.sasa .leyk .ana p {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 15px;
+}
+.sasa .leyk .ana .cavid {
+  padding: 50px;
+  width: 300px;
+  height: 210px;
+}
+.sasa .leyk .ana .cavid span {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.nani {
+  padding: 50px;
+}
+
+.yetka {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  background-image: url(../img/road-8395119_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.yetka .but {
+  display: none;
+  margin-left: 380px;
+  position: absolute;
+  bottom: 15%;
+  width: 188px;
+  height: 63px;
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  border-radius: 8px;
+  background: var(--red-45, #E50000);
+}
+.yetka .priroda {
+  width: 96%;
+  position: absolute;
+  position: relative;
+  top: 40%;
+  left: 2%;
+}
+.yetka .priroda button {
+  margin-left: 380px;
+  position: absolute;
+  bottom: 15%;
+  width: 188px;
+  height: 63px;
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  border-radius: 8px;
+  background: var(--red-45, #E50000);
+}
+.yetka .priroda span {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.yetka .priroda p {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.kemal {
+  width: 100%;
+  height: 440px;
+  background-color: black;
+  margin-top: 10%;
+}
+.kemal .arzu {
+  width: 90%;
+  margin: auto;
+}
+.kemal .arzu .lamiya {
+  margin-top: 50%;
+}
+.kemal .arzu .lamiya ul i {
+  color: #FFFFFF;
+}
+.kemal .arzu .lamiya ul p {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.kemal .arzu .lamiya ul li {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  list-style: none;
+}
+.kemal .arzu .lamiya ul p {
+  color: var(--absolute-white, #FFF);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.kemal .dada {
+  width: 90%;
+  height: 1px;
+  margin: auto;
+  background: #262626;
+}
+.kemal .dada hr {
+  margin-top: 60px;
+}
+.kemal .ayuye {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+}
+.kemal .ayuye .tus span {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.kemal .ayuye .jizn span {
+  color: var(--grey-60, #999);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 576px) {
+  .box {
+    width: 90%;
+    height: 120px;
+    margin: initial;
+  }
+  .box .kenan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .box .kenan .logo {
+    width: 50%;
+  }
+  .box .kenan .roro {
+    display: none;
+  }
+  .box .kenan .lala {
+    display: none;
+  }
+  .box .kenan .bars {
+    display: block;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 6px;
+    border: 3px solid var(--black-15, #262626);
+    background: var(--black-10, #1A1A1A);
+  }
+  .sekil {
+    position: relative;
+    width: 90%;
+    height: 600px;
+    border-radius: 12px;
+  }
+  .sekil .yazi {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .sekil .yazi .iconlar {
+    display: flex;
+    margin-top: 80px;
+    width: 240px;
+    height: 60px;
+    margin-left: 60px;
+  }
+  .sekil .yazi .iconlar .ken {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-06, #0F0F0F);
+    margin-left: 10px;
+  }
+  .sekil .yazi .iconlar .ken img {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+  }
+  .sekil .yazi button {
+    width: 300px;
+    height: 56px;
+    color: var(--grey-60, #999);
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 153%;
+    border-radius: 8px;
+    background: var(--red-45, #E50000);
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 153%;
+    position: absolute;
+  }
+  .sekil .kantara {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 62%;
+    left: 15%;
+    text-align: center;
+    position: relative;
+  }
+  .sekil .kantara span {
+    display: none;
+  }
+  .sekil .kantara p {
+    color: var(--absolute-white, #FFF);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  .ortalama {
+    width: 576px;
+    margin: auto;
+    padding: 20px;
+  }
+  .sasa {
+    position: relative;
+    width: 90%;
+    margin: auto;
+  }
+  .sasa .rezin {
+    position: relative;
+  }
+  .sasa .rezin .toto {
+    position: absolute;
+    top: 1380px;
+    width: 505px;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 12px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-10, #1A1A1A);
+  }
+  .sasa .rezin .toto .test {
+    display: none;
+  }
+  .sasa .rezin .toto .razi {
+    padding: 20px;
+    width: 445px;
+    height: 350px;
+    border-radius: 12px;
+    background: var(--black-06, #0F0F0F);
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .sasa .rezin .toto .razi .megi {
+    top: 270px;
+    position: absolute;
+    width: 410px;
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .sasa .rezin .toto .razi .rara {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sasa .rezin .toto .razi .rara .ruru {
+    margin-top: 15px;
+    margin-left: 1px;
+  }
+  .sasa .rezin .toto .razi .rara .ruru span {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .rezin .toto .razi .rara .ruru p {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .rezin .toto .razi .rara .ulduz {
+    margin-top: 35px;
+    margin-right: 15px;
+    width: 125px;
+    height: 26px;
+    border-radius: 51px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+  }
+  .sasa .rezin .toto .razi .rara .ulduz img {
+    width: 14px;
+    height: 14px;
+    margin-left: 1px;
+    margin-bottom: 4px;
+  }
+  .sasa .rezin .toto .razi .rara .ulduz i {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .sasa .rezin .toto .razi .rara .ulduz span {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .rezin .toto .strelka {
+    display: flex;
+    justify-content: center;
+  }
+  .sasa .rezin .toto .strelka .tok {
+    color: #E50000;
+  }
+  .sasa .rezin .toto .strelka span {
+    border-radius: 100px;
+    margin-top: 13px;
+    font-size: 50px;
+  }
+  .sasa .rezin .toto .strelka .lamiya {
+    border-radius: 100px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 5px;
+  }
+  .sasa .rezin .toto .strelka .lamiya img {
+    margin-top: 9px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  .sasa .rezin .toto .strelka .leyla {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+  .sasa .rezin .toto .strelka .leyla img {
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+    margin-left: 5px;
+  }
+  .sasa .rezin .toto .kiki {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 9%;
+  }
+  .sasa .rezin .toto .kiki p {
+    margin-top: 15px;
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .rezin .toto .sweet {
+    display: flex;
+    width: 204px;
+    height: 58px;
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+  }
+  .sasa .rezin .toto .sweet .mimi {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153%;
+    margin-top: 15px;
+  }
+  .sasa .rezin .koko {
+    position: absolute;
+    top: 1110px;
+    width: 505px;
+    height: 250px;
+    border-radius: 12px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-10, #1A1A1A);
+  }
+  .sasa .rezin .koko .hindistan {
+    position: absolute;
+    bottom: 10px;
+    margin-bottom: 20px;
+    width: 95%;
+    height: 100px;
+    margin-left: 30px;
+  }
+  .sasa .rezin .koko .hindistan img {
+    width: 90px;
+    height: 90px;
+  }
+  .sasa .rezin .koko .hindistan .tus {
+    display: none;
+  }
+  .sasa .rezin .koko .bizon {
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sasa .rezin .koko .bizon .imglar {
+    display: flex;
+  }
+  .sasa .rezin .koko .bizon .imglar .ket {
+    margin-left: 10px;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+  }
+  .sasa .rezin .koko .bizon .imglar .ket img {
+    height: 24px;
+    width: 24px;
+    margin: 14px;
+  }
+  .sasa .rezin .koko .bizon p {
+    color: #999;
+    font-family: Archivo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 10px;
+    color: #999;
+  }
+  .sasa .rezin .soso {
+    border-radius: 12px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-10, #1A1A1A);
+    width: 505px;
+    height: 180px;
+  }
+  .sasa .rezin .soso .wowo {
+    width: 400px;
+  }
+  .sasa .rezin .soso p {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    position: absolute;
+    bottom: 120px;
+  }
+  .sasa .rezin .soso span {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    width: 350px;
+    margin-right: 20px;
+    position: absolute;
+  }
+  .sasa .leyk {
+    margin-right: 50px;
+  }
+  .sasa .leyk .ana {
+    top: 200px;
+    right: 8px;
+    position: absolute;
+    border: solid forestgreen 1px;
+    width: 505px;
+    height: 920px;
+    border-radius: 12px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-10, #1A1A1A);
+  }
+  .sasa .leyk .ana .reji {
+    width: 400px;
+    height: 88px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    display: flex;
+  }
+  .sasa .leyk .ana .reji .more {
+    width: 160px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .sasa .leyk .ana .reji .more .bori {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .leyk .ana .reji img {
+    width: 65px;
+    height: 65px;
+    margin-left: 12px;
+    margin-top: 11px;
+  }
+  .sasa .leyk .ana .musik {
+    margin-top: 30px;
+  }
+  .sasa .leyk .ana .musik span {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .leyk .ana .qaqam {
+    width: 400px;
+    height: 88px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    display: flex;
+  }
+  .sasa .leyk .ana .qaqam .biri {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .leyk .ana .qaqam .kome {
+    width: 130px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .sasa .leyk .ana .qaqam img {
+    width: 65px;
+    height: 65px;
+    margin-left: 12px;
+    margin-top: 11px;
+  }
+  .sasa .leyk .ana .direktor {
+    margin-top: 10px;
+  }
+  .sasa .leyk .ana .gernes {
+    width: 250px;
+    height: 100px;
+    margin-top: 30px;
+  }
+  .sasa .leyk .ana .gernes .juk {
+    margin-top: 20px;
+  }
+  .sasa .leyk .ana .gernes .boy {
+    width: 117px;
+    height: 43px;
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .leyk .ana .gernes .kic {
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    width: 84px;
+    height: 43px;
+  }
+  .sasa .leyk .ana .gernes .kivi {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .leyk .ana .messi.qonca {
+    margin-left: 100px;
+  }
+  .sasa .leyk .ana .messi {
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    width: 190px;
+    height: 100px;
+    margin-top: 25px;
+  }
+  .sasa .leyk .ana .messi span {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .leyk .ana .messi .dede {
+    margin-left: 10px;
+  }
+  .sasa .leyk .ana .messi p {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-left: 10px;
+  }
+  .sasa .leyk .ana .messi i {
+    color: #E50000;
+    font-size: 18px;
+  }
+  .sasa .leyk .ana .messi img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+  }
+  .sasa .leyk .ana .sevinc span {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .sasa .leyk .ana .eldar {
+    width: 400px;
+    height: 130px;
+  }
+  .sasa .leyk .ana .eldar .mess {
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    width: 102px;
+    height: 43px;
+    margin-top: 10px;
+  }
+  .sasa .leyk .ana .eldar .tess {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    width: 85px;
+    height: 43px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .sasa .leyk .ana .eldar .fess {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+    width: 73px;
+    height: 43px;
+    margin-left: 10px;
+  }
+  .sasa .leyk .ana .eldar .meem {
+    margin-left: 10px;
+    width: 72px;
+    height: 43px;
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    border-radius: 8px;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+  }
+  .sasa .leyk .ana .eldar .se {
+    width: 90px;
+    height: 43px;
+    border-radius: 8px;
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    border: 1px solid var(--black-15, #262626);
+    background: var(--black-08, #141414);
+  }
+  .sasa .leyk .ana .ilham {
+    padding-top: 10px;
+  }
+  .sasa .leyk .ana p {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 15px;
+  }
+  .sasa .leyk .ana .cavid {
+    padding: 50px;
+    width: 300px;
+    height: 210px;
+  }
+  .sasa .leyk .ana .cavid span {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .nani {
+    width: 505px;
+    height: 130px;
+    position: absolute;
+    top: 2772px;
+    left: 28px;
+  }
+  .yetka {
+    position: relative;
+    top: 1900px;
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    background-image: url(../img/road-8395119_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .yetka .but {
+    position: absolute;
+    display: block;
+    margin-left: 380px;
+    position: absolute;
+    right: 160px;
+    width: 188px;
+    height: 63px;
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 8px;
+    background: var(--red-45, #E50000);
+  }
+  .yetka button {
+    display: none;
+    margin-left: 380px;
+    position: absolute;
+    bottom: 15%;
+    width: 188px;
+    height: 63px;
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 8px;
+    background: var(--red-45, #E50000);
+  }
+  .yetka .priroda {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    width: 96%;
+    position: absolute;
+    position: relative;
+    top: 40%;
+    left: 2%;
+  }
+  .yetka .priroda button {
+    margin-left: 380px;
+    position: absolute;
+    bottom: 15%;
+    width: 188px;
+    height: 63px;
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 8px;
+    background: var(--red-45, #E50000);
+  }
+  .yetka .priroda span {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .yetka .priroda p {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+  }
+  .kemal {
+    top: 3400px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 10%;
+  }
+  .kemal .arzu {
+    width: 90%;
+    margin: auto;
+  }
+  .kemal .arzu .lamiya {
+    margin-top: 50%;
+  }
+  .kemal .arzu .lamiya ul i {
+    color: #FFFFFF;
+  }
+  .kemal .arzu .lamiya ul p {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+  }
+  .kemal .arzu .lamiya ul li {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    list-style: none;
+  }
+  .kemal .arzu .lamiya ul p {
+    color: var(--absolute-white, #FFF);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+  }
+  .kemal .dada {
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background: #262626;
+  }
+  .kemal .dada hr {
+    margin-top: 60px;
+  }
+  .kemal .ayuye {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .kemal .ayuye .tus span {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .kemal .ayuye .jizn span {
+    color: var(--grey-60, #999);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}/*# sourceMappingURL=style.css.map */
